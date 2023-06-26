@@ -1,11 +1,12 @@
-import Head from "next/head";
-import Image from "next/image";
-
+"use client";
+import { Button } from "antd";
 export default function Home() {
   return (
     <>
-      <Head>QuadSquad QC</Head>QuadSquad QC
-      <main className="main"></main>
+      <main className="main">
+        QuadSquad QC
+        <Button>TEST</Button>
+      </main>
     </>
   );
 }
